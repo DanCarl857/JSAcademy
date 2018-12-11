@@ -1,0 +1,37 @@
+* NodeJS is an open source platform
+* allows you to build fast and scalable applications using Javascript
+* Runs on V8 Chrome engine
+* V8 is the modern Javascript virtual machine that powers your Google Chrome browser
+* Use third party libraries using NPM(Node Package Manager)
+* HTTP verbs: GET, POST, PUT, PATCH, DELETE
+* GET - Get object(s)
+* POST - Create 
+* PUT - Update
+* PATCH - Update
+* DELETE - Delete
+* CRUD - Create - POST Read - GET Update - PUT/PATCH Delete - DELETE
+
+* HTTP response codes
+* 1xx - information
+  - 100 - Continue
+  - 101 - Switching Protocols
+  - 102 - Processing
+* 2xx - Success
+  - 200 - OK
+  - 201 - Created
+  - 202 - Accepted
+  - 203 - Non-authoritative information
+  - 204 - No Content
+* 3xx - Redirection
+  - 300 - Multiple choices
+  - 301 - Moved Permanently
+  - 302 - Found
+* 4xx - Client Error
+  - 400 - Bad Request
+  - 401 - Unauthorized
+  - 402 - Payment Required
+  - 403 - Forbidden
+  - 404 - Not Found
+* 5xx - Server Error
+  - 500 - Internal server error
+  - 501 - Not implemented
