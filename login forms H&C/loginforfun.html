@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="loginforfun.css">
+<title>
+    Login form for fun
+</title>
+</head>
+<body>
+    <form>
+        <h1>Student Signup/login form</h1>
+        <fieldset> 
+            <legend>Personal information</legend> 
+        Name <br>
+        <input type="text" name="Name" size="20"autocomplete="on" placeholder="Name" required > <br> <br>
+        Username<br> 
+        <input type="text" name="Username" size="20" placeholder="Username" required> <br> <br>
+        Email <br>
+        <input type="email" name="email" size="10" autocomplete="on" placeholder="Email" required> <br> <br>
+        Telephone number <br>
+        <input type="tel" name="telnum" maxlength="9" placeholder="phone number" required> <br> <br>
+        Password <br>
+        <input type="password" name="password" maxlength="10" placeholder="password" required> <br> <br>
+        Date of birth <br>
+        <input type="date" name="Birthday" placeholder="Birthday" required> <br> <br>
+
+        Fill in your Gender here <br> 
+        <input type="radio" name="gender" value="Female" checked>Female<br> 
+        <input type="radio" name="gender" value="Male">Male <br> 
+        <input type="radio" name="gender" value="Other">Other <br>
+
+        </fieldset> <br>
+        
+        <!-- problem with datalist tags
+        <input list="browsers">       
+        <datalist id="browsers">
+            <option value="Bachelor prgramme"> <br>
+            <option value="Masters programme"> <br>
+            <option value="PhD programme"> <br>
+        </datalist> -->
+        
+        <input type="checkbox" name="payment_method" value="MTN Mobile money">MTN Mobile money <br> <br>
+        <input type="checkbox" name="payment_method" value="Orange Mobile Money">Orange Mobile Money <br> <br>
+        <input type="checkbox" name="payment_method" value="Express Union">Express Union <br> <br>
+        <input type="checkbox" name="payment_method" value="Other">Other <br> <br>
+
+        <input type="color" name="favcolor" value="#fffff"> <br> <br>
+        <textarea class="textarea" name="message" rows="10" cols="30"> 
+            Enter yor message here.....   
+        </textarea> <br> <br>
+
+        <textarea class="textarea" name="comments">
+        Enter any comments here  
+        </textarea> <br> <br> <br>
+   <!-- value submit-->
+   <input class="send" type="submit" value="Login"> <br> <br>
+
+   <!-- on click to indicate what happens when the send button is clicked-->
+
+<button class="send" type="button"onclick="alert('Sign up succesfull')">Sign up</button> <br> <br>
+
+<input type ="reset">
+    </form> 
+</body>
+</html>
