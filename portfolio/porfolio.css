@@ -1,0 +1,53 @@
+div.planets:hover
+{
+border:1px solid #777
+}
+
+div.planets
+{
+margin:10px;
+border:1px;
+float:left;
+width:180px;
+padding:50px;
+}
+
+div.img
+{
+    width:100%;
+    height:auto;
+
+}
+
+#The_planets{
+text-align:right;
+
+}
+
+#N9planets
+{
+
+}
+
+
+
+#Thesun
+{
+
+}
+
+
+
+#Jupiter
+{
+
+}
+
+
+/*styling for the Mercury paragraph*/
+#MERCURY
+{
+float:right;
+}
+
+/*styling for the Mercury paragraph*/
