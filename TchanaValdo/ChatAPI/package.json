@@ -1,0 +1,24 @@
+{
+  "name": "chatapi",
+  "version": "1.0.0",
+  "description": "Chat API implemented with mySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tchana Valdo",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.10",
+    "sequelize": "^5.2.12",
+    "sequelize-cli": "^5.4.0",
+    "socket.io": "^2.2.0"
+  }
+}
