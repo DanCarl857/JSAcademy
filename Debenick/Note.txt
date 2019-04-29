@@ -1,0 +1,2 @@
+This file is the first in the Debenick folder. 
+The Debenick folder will contain all my solutions from the eloquentJS exercises
